@@ -52,7 +52,15 @@ header{
     color: #2AB939 !important;
     border-bottom: 2px solid #2AB939 !important;
 }
+.navbar-nav .nav-item .nav-link.active {
+    color: #2AB939 !important;
+    border-bottom: 2px solid #2AB939 !important;
+}
 .navbar-nav .nav-item .home:hover {
+    color: #2AB939 !important;
+    border-bottom: 0 !important;
+}
+.navbar-nav .nav-item .home.active {
     color: #2AB939 !important;
     border-bottom: 0 !important;
 }
@@ -81,7 +89,7 @@ header{
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    height: 400px !important;
+    height: 500px !important;
     width: 100% !important;
     display: flex !important;
     align-items: center !important;
@@ -91,11 +99,19 @@ header{
 }
 footer {
     background: #EAEFE4;
-    height: 60vh !important;
     align-content: center !important;
 }
 .footer-logo {
     margin-top: 20px !important;
+}
+
+.banner{
+    background-image: url('../images/Mask\ group\ \(1\).png');
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 300px !important;
 }
 
 
@@ -450,14 +466,19 @@ footer {
         margin: 5px auto !important;
     }
     .what-do  {
-        height: 320px !important;
+        height: auto !important;
+    }
+    .what-do .container {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
     }
     .what-do .container p {
-       font-size: 16px !important;
+       font-size: 17px !important;
+       padding-top: 15px !important;
     }
     .what-do .container div ul li{
         font-size: 14px !important;
-        font-weight: 400 !important;
+        font-weight: 500 !important;
         line-height: 25px !important;
     }
     .services {
@@ -486,7 +507,7 @@ footer {
         font-size: 14px !important;
     }
     footer {
-        height: 100% !important;
+        /* height: 100% !important; */
     }
     footer .footer-logo {
         width: 130px !important;
@@ -511,7 +532,6 @@ footer {
         margin: 10px auto !important;
     }
     .about-us .row {
-        margin-top: 15px !important;
         margin-bottom: 5px !important;
         padding-top: 0 !important;
         padding-bottom: 0 !important;
@@ -524,7 +544,7 @@ footer {
     }
     .about-us .row .para-caption p {
         font-size: 18px !important;
-        margin-top: 10px !important;
+        margin-top: 8px !important;
     }
     .about-us-para p {
         font-size: 15px !important;
@@ -536,11 +556,8 @@ footer {
         margin-top: 0 !important;
     }
     .banner{
-        height: 25vh !important;
-        width: 100% !important;
-        background-position: top !important;
-        object-fit: cover !important;
-    }
+            height: 200px !important;
+        }
     .banner .title {
         font-size: 20px !important;
     }
@@ -633,12 +650,24 @@ footer {
         margin: 10px auto !important;
     }
     .history .row div .btn {
-        padding: 3px 8px !important;
+        padding: 5px 10px !important;
         font-size: 15px !important;
         margin: 5px auto !important;
     }
+    .what-do {
+        height: auto !important;
+    }
+    .what-do .container {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    .what-do .container p {
+        font-size: 20px !important;
+        padding-top: 10px !important;
+    }
     .what-do .container div ul li {
-        font-weight: 400 !important;
+        font-weight: 500 !important;
+        font-size: 16px !important;
     }
     .services {
         height: 230px !important;
@@ -663,7 +692,7 @@ footer {
         margin-right: 10px !important;
     }
     footer {
-        height: 100% !important;
+        /* height: 100% !important; */
     }
     footer .footer-logo {
         width: 180px !important;
@@ -681,16 +710,17 @@ footer {
         margin: 15px auto !important;
     }
     .banner{
-        height: 30vh !important;
+        height: 250px !important;
         width: 100% !important;
-        background-position: top !important;
-        object-fit: cover !important;
     }
     .banner .title {
         font-size: 23px !important;
     }
     .banner .sub-title {
         font-size: 15px !important;
+    }
+    .about-us div {
+        margin: 0 !important;
     }
     .list-content div .card p {
         font-size: 15px !important;
@@ -784,13 +814,16 @@ footer {
         line-height: 25px !important;
     }
     .history .row div .btn {
-        padding: 5px 8px !important;
+        padding: 6px 13px !important;
         font-size: 15px !important;
         margin: 5px auto !important;
     }
+    .what-do .container p {
+        font-size: 23px !important;
+    }
     .what-do .container div ul li {
         font-weight: 500 !important;
-        line-height: 30px !important;
+        line-height: 35px !important;
     }
     .services {
         height: 200px !important;
@@ -815,7 +848,7 @@ footer {
         margin-right: 10px !important;
     }
     footer {
-        height: 100% !important;
+        /* height: 100% !important; */
     }
     footer .footer-logo {
         width: 180px !important;
@@ -831,6 +864,12 @@ footer {
     } 
     footer .container .row div ul li {
         font-size: 13px !important;
+    }
+    .banner {
+        height: 270px !important;
+    }
+    .about-us div {
+        margin: 7px auto !important;
     }
     .banner .title {
         font-size: 24px !important;
@@ -870,7 +909,6 @@ footer {
     .landscape div h4 {
         font-size: 21px !important;
     }
-
     .history-img {
         height: 100% !important;
     }
@@ -888,6 +926,9 @@ footer {
     }
     .history .row .history-description .read-more {
         margin-top: 8px !important;
+    }
+    .what-do .container p {
+        font-size: 27px !important;
     }
     footer .footer-logo {
         width: 180px !important;
